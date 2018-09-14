@@ -56,7 +56,7 @@ public class WC {
 	
 	public static void operation(String filePath, String arr[]) {
 		System.out.println("\n");
-		System.out.println("filePath is :" + filePath);
+		System.out.println("文件路径为 :" + filePath);
 		for(int i = 0; i < arr.length - 1; i++) {
 //			System.out.println(arr[i]);
 			switch (arr[i]) {
